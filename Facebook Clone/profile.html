@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Socialbook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df324212c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Setting & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png"> Friends</button>
+                <button type="button"><img src="images/message.png" alt=""> Message</button>
+                <br>
+                <a href=""><img src="images/more.png"></a>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png"> Student by Profession</li>
+                        <li><img src="images/profile-study.png"> Studies at Mumbai University</li>
+                        <li><img src="images/profile-home.png"> Lives in Mumbai, India</li>
+                        <li><img src="images/profile-location.png"> From Thane, Mumbai</li>
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                         <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                         <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>Joseph N</p></div>
+                        <div><img src="images/member-2.png">Nathan N</div>
+                        <div><img src="images/member-3.png">George D</div>
+                        <div><img src="images/member-4.png">Francis L</div>
+                        <div><img src="images/member-5.png">Anthony E</div>
+                        <div><img src="images/member-6.png">Michael A</div>
+                        <div><img src="images/member-7.png">Edward M</div>
+                        <div><img src="images/member-8.png">Bradon C</div>
+                        <div><img src="images/member-9.png">James Doe</div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png"> Live Video</a>
+                            <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Exploring the future of tech! <span>🌐 Embracing innovation and creativity in IT.</span> <a href="#">#TechTrends</a> <a href="#">#CodingLife</a></p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 50</div>
+                            <div><img src="images/comments.png"> 26</div>
+                            <div><img src="images/share.png"> 15</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-2.png">
+                            <div>
+                                <p>Jackson</p>
+                                <span>July 10 2021, 18:50 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">"Chasing warmth and tranquility by the fire.<span>🔥🌲 Embracing nature's soothing embrace.</span> <a href="#">#CampfireNights</a> <a href="#">#NatureEscapes</a></p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 78</div>
+                            <div><img src="images/comments.png"> 50</div>
+                            <div><img src="images/share.png"> 35</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-3.png">
+                            <div>
+                                <p>Samona</p>
+                                <span>March 20 2021, 07:06 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Subscribe <span>Embracing the journey </span>of self-discovery, finding joy in every step. 🌟🌿 <a href="#">#SelfDiscovery</a> <a href="#">#GrowthMindset</a></p>
+                    <img src="images/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 99</div>
+                            <div><img src="images/comments.png"> 47</div>
+                            <div><img src="images/share.png"> 25</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-4.png">
+                            <div>
+                                <p>John Doe</p>
+                                <span>May 3 2021, 8:20 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text">Enjoying the flexibility of <a href="#"?>#WorkFromHome!</a> <span> Boosting productivity </span>with comfy setups and zero commute.<a href="#">#StayProductive</a></p>
+                    <img src="images/feed-image-4.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 130</div>
+                            <div><img src="images/comments.png"> 30</div>
+                            <div><img src="images/share.png"> 10</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/member-1.png">
+                            <div>
+                                <p>Alison</p>
+                                <span>August 21 2021, 16:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+    
+                    <p class="post-text"><span> Teamwork makes the dream work! Together, we achieve more and turn goals into reality.</span> <a href="#">#Teamwork</a> <a href="#">#Success</a> </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png"> 55</div>
+                            <div><img src="images/comments.png"> 20</div>
+                            <div><img src="images/share.png"> 5</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2024 - Facebook.com, Inc. or its affiliates</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
